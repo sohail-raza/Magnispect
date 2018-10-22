@@ -43,9 +43,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(208, 34);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 277);
+            this.pictureBox1.Size = new System.Drawing.Size(775, 397);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -82,6 +82,7 @@
             this.loadImageToolStripMenuItem.Name = "loadImageToolStripMenuItem";
             this.loadImageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadImageToolStripMenuItem.Text = "Load Image";
+            this.loadImageToolStripMenuItem.Click += new System.EventHandler(this.loadImageToolStripMenuItem_Click);
             // 
             // imageToolStripMenuItem
             // 
@@ -94,12 +95,13 @@
             // resizeToolStripMenuItem
             // 
             this.resizeToolStripMenuItem.Name = "resizeToolStripMenuItem";
-            this.resizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resizeToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.resizeToolStripMenuItem.Text = "Resize";
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // Form1
             // 
